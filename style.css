@@ -6,7 +6,8 @@ h1{ font-size: 50px;}
 .org{
     color: orange;
 }
-section{display: flex;}
+section{display: flex;
+        margin-bottom: 100px;}
 .half-width{
     width: 50%;
     padding: 0% 6%;
@@ -21,7 +22,11 @@ section{display: flex;}
     color: wheat;
     font-weight: 700;
     border-radius: 5px;}
-    .background-banner{
-        background-image: url(images/top-banner.png);
+    .dream-big{
+        background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
+        background-position: right;
     }
+.dream-bigg{background-image: url(images/top-banner.png);
+            background-repeat: no-repeat;
+}
