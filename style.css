@@ -3,10 +3,11 @@ body{
     margin: 0;
 }
 h1{ font-size: 50px;}
-.org{
+.orange-color
+{
     color: orange;
 }
-section{display: flex;
+.flexible-container{display: flex;
         margin-bottom: 100px;}
 .half-width{
     width: 50%;
@@ -24,12 +25,39 @@ section{display: flex;
     border-radius: 5px;}
     .top-banner{
         background-image: url(images/top-banner.png);
-        
+        background-repeat: no-repeat;
+  
     }
-
+h2{
+    font-size: 40px;
+}
 .dream-big{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
+.experience-iteam{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 10px 20px;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#full-stuck-web-developer{
+    border-left: 7px solid tomato;
+
+}
+#Baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
+}
